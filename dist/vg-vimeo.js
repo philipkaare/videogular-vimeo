@@ -131,7 +131,7 @@
 
 	          function createVimeoIframe(id) {
 	            return $('<iframe>', {
-	              src: '//player.vimeo.com/video/' + id + '?api=1&player_id=vimeoplayer',
+	              src: 'https://player.vimeo.com/video/' + id + '?api=1&player_id=vimeoplayer',
 	              frameborder: 0,
 	              scrolling: 'no'
 	            }).css({
@@ -203,6 +203,7 @@
 	      };
 	    }]
 	  );
+
 
 /***/ }
 /******/ ]);
